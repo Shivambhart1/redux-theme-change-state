@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  gap: 12px;
+  justify-content: space-around;
+  padding: 40px;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 300;
+
+  a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in-out;
+    overflow: none;
+    color: inherit;
+  }
+}
+
+.themeToggle {
+  button {
+    padding: 4px 26px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+}
